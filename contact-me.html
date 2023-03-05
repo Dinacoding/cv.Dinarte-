@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contact me</h1>
+    <p>Address</p>
+    <p>Number</p>
+    <p>Email</p>
+
+    <form action="emailto:dinarte.orepolo@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Enter your name: </label>
+        <input type="text" name="Yourname"> <br>
+        <label for="start">Start month:</label>
+        <input type="month" name="dateofrequest"
+        min="2018-03" value="2018-05"><br>
+        <label>Your Email</label>
+        <input type="email" name="Youremail" value=""><br>
+        <label>Your Messagem</label><br>
+        <textarea name="yourmessage" rows="4" cols="40"></textarea><br>
+        <input type="submit" value="Subscribe!">
+    </form>
+</body>
+</html>
